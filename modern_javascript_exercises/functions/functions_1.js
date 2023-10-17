@@ -21,9 +21,8 @@ const performLogPerson = logPerson;
 // Arrow Functions in a Variable
 // Write a version of logPerson() as an Arrow Function and store it in a variable called arrowVersionOfLogPerson
 
-const arrowVersionOfLogPerson = (person) => {
-  console.log("The person is " + person);
-};
+const arrowVersionOfLogPerson = (person) =>
+  console.log(`The person is ${person}`);
 
 // Anonymous Arrow Functions
 // Replace logPerson below with an Anonymous Arrow Function that does the same thing!
