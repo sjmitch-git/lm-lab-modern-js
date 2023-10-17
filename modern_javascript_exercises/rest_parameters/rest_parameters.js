@@ -2,7 +2,7 @@
 
 // Add rest parameters here!
 export function add(...nums) {
-  return nums.reduce((acc, val) => acc + val, 0);
+  return nums.reduce((total, val) => total + val, 0);
 }
 
 add(1, 2, 3, 4, 5);
