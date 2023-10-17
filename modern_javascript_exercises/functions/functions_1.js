@@ -27,6 +27,6 @@ const arrowVersionOfLogPerson = (person) =>
 // Anonymous Arrow Functions
 // Replace logPerson below with an Anonymous Arrow Function that does the same thing!
 
-people.forEach((person) => console.log("The person is " + person));
+people.forEach((person) => console.log(`The person is ${person}`));
 
 // In JavaScript there are lots of ways to write functions. There is no right or wrong way, but arrow functions are the most modern. 🙂
